@@ -6,7 +6,7 @@ contract Bank{
     // Variables
     mapping (address => uint) balance;
 
-    //Eventos
+    //Events
     event Transfer (address _from, address _to, uint _amount);
 
 
